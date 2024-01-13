@@ -1,0 +1,59 @@
+/* Work sans font */
+/* shared style */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    width: 180px;
+height: 64px;
+border-radius: 8px;
+background: #FF900E;
+border: none;
+color: white;
+font-size: 1rem;
+font-weight: 600;
+}
+/* header style */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color:  #131313;
+font-size: 2.8rem;
+font-weight: 700;
+}
+
+nav > ul{
+    display: flex;
+  
+}
+nav li{
+   list-style: none;
+   margin: 30px;
+   font-size: 1rem;
+   font-weight: 500;
+}
+nav li a{ 
+    text-decoration: none;
+    color: #424242;
+}
+/* banner style */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+}
